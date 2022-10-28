@@ -1,0 +1,20 @@
+{
+  "name": "xcc-view-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "near-sdk-js build contract/index.js build/contract.wasm",
+    "test": "ava --timeout=2m"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "near-sdk-js": "^0.6.0-0"
+  },
+  "devDependencies": {
+    "ava": "^5.0.1",
+    "near-workspaces": "^3.2.2"
+  }
+}
